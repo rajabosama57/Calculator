@@ -10,6 +10,33 @@ body {
   height: 100vh;
   background: #585b64;
 }
+a{
+  text-decoration: none;
+}
+.download-btn{
+   position: absolute;
+  top: 30px;
+  left: 20px;
+}
+#down-btn{
+ 
+  padding: 15px 20px;
+  border-radius: 8px;
+  outline: none;
+  border: 2px solid #fff;
+  background-color: #585b64;
+  color: #fff;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  transition: 0.5s;
+}
+#down-btn:hover{
+  border: 2px solid #fff;
+  background-color: #fff;
+  color: #585858;
+  transform: scale(0.95);
+
+}
 .container {
   width: 60%;
   background: white;
@@ -18,10 +45,12 @@ body {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.09);
 }
 .address{
+  width: 80%;
+  margin: 0px auto;
   text-align: center;
   margin-top: 15px;
   font-style: italic;
-  font-size: 60px;
+  font-size: 40px;
   font-family:'Times New Roman', Times, serif;
 }
 #display {
@@ -36,7 +65,7 @@ body {
 }
 #history {
   width: 100%;
-  height: 10vh;
+  height: 8vh;
   margin-bottom: 10px;
   text-align: right;
   font-size: 40px;
@@ -70,3 +99,4 @@ body {
   font-weight: bold;
   font-style: italic;
 }
+
